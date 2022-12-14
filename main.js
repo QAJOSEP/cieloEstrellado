@@ -1,5 +1,5 @@
 function estrellas (){
-    let limite = 1000;
+    let limite = 1200;
     let escena = document.querySelector('.escena');
     let i = 0;
     while(i<limite){

@@ -17,35 +17,40 @@
     position: absolute;
     bottom: 0;
     top: 0;
-    left: 910px;
-    width: 38%;
+    left: 930px;
+    width: 34%;
     object-fit: cover;
     object-position: bottom;
+    overflow: hidden;
 }
 
 #titulo{
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 0;
     right: 400px;
     color: #fff;
     text-align: center;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 120px;
     letter-spacing: 10px;
     margin-right: 60px;
     padding-left: 10px;
+    overflow: hidden;
 }
 
 #titulo span{
     background: -webkit-linear-gradient(white,#77818c);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    overflow: hidden;
 }
 
 .escena i {position: absolute;
+    font-size: xx-large;
+    font-weight: 900;
     background: #fff;
-    background-repeat: 50%;
+    border-radius: 50%;
     animation: animacion linear infinite;
 }
 @keyframes animacion {
