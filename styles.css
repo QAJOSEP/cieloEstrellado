@@ -15,24 +15,21 @@
 
 .imagen{
     position: absolute;
-    bottom: 10%;
-    top: 10%;
-    width: 100%;
+    bottom: 0%;
+    right: 0%;
+    width: 70%;
     overflow: hidden;
 }
 
 #titulo{
     position: absolute;
     top: 20%;
-    left: 0;
-    right: 400px;
+    left: 0%;
     color: #fff;
     text-align: center;
     font-weight: 600;
-    font-size: 120px;
+    font-size: 30px;
     letter-spacing: 10px;
-    margin-right: 60px;
-    padding-left: 10px;
     overflow: hidden;
 }
 
